@@ -1,0 +1,15 @@
+<application xmlns="https://jakarta.ee/xml/ns/jakartaee"
+             version="10">
+
+    <module>
+        <ejb>myapp-ejb.jar</ejb>
+    </module>
+
+    <module>
+        <web>
+            <web-uri>myapp-web.war</web-uri>
+            <context-root>/myapp</context-root>
+        </web>
+    </module>
+
+</application>
